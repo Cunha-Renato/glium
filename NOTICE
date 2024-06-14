@@ -1,0 +1,12 @@
+NOTICE
+
+This product includes software developed by glium at: https://github.com/glium.
+
+Modifications made by the Renato Cunha at: https://github.com/Cunha-Renato:
+- Change 1: Removed:
+    - book/
+    - examples/
+    - tests/
+
+- Change 2: Added support for the crate nalgebra_glm:
+    - Implemented the trait vertex::Attribute for nalgebra_glm types in src/vertex/format.rs
